@@ -7,7 +7,7 @@ on:
       - master
 
 env:
-  IMAGE_NAME: "muen/cloud-short-video"
+  IMAGE_NAME: "muen/cloud-short-play"
   IMAGE_TAG: "latest"
 
 jobs:
