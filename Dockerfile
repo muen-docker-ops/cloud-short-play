@@ -1,4 +1,4 @@
-FROM node:18
+FROM node:18-alpine
 
 WORKDIR /app
 
@@ -6,4 +6,5 @@ ENV TZ="Asia/Shanghai"
 
 COPY package* .
 
-RUN npm ci
+RUN apk add --no-cache tzdata && \
+npm ci
