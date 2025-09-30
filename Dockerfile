@@ -15,4 +15,5 @@ font-noto-cjk \
 font-noto-extra \
 font-noto-emoji \
 fontconfig && \
+ffmpeg && \
 npm ci
